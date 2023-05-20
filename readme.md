@@ -4,11 +4,10 @@
 
 ### the flask app 
 #### you need to build dockerfile and build an image of this backend 
-#### the server run on port 5000 
+#### the server run on port 5200 
 #### you need to download the packages usig pip install -r requimrements.txt after copy command
 ### run the flask app
-#### you can enter the <host:port>**/hello** resource to see the message hidden 
-#### you can enter the <host:port>**/students** resource to see the students and to add a new students using postman //optional
+#### you can enter the <host:port>**/welcome** resource to see the message hidden 
 #### upload the image to your dockerhub repo
 
 #k8s section
