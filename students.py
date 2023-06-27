@@ -1,6 +1,7 @@
 from flask import Flask, request
 
 app = Flask(__name__)
+
 @app.route('/welcome', methods=['GET'])
 def getstudents():
     if request.method == 'GET':
